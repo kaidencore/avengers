@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+}
+body{
+	height: 100%;
+}
+hr{
+	border: 1px solid #7244ab;
+}
+.sections-anchor{
+	transition: color 0.15s;
+}
+.sections-anchor:visited{
+	color: white;
+}
+.sections-anchor:hover{
+	color: #7244ab;
+}
+main{
+	height: 5200px;
+	background: #212121;
+	margin: 30px 0 30px 0;
+}
+.flex-1, .flex-2, .flex-3, .flex-4, .flex-5{
+	display: flex;
+	margin-top: 40px;
+}
+.hero-block, .sections-box{
+	/**background-color: rgb(70, 70, 70);**/
+	padding: 30px;
+	width: 250px;
+	color: white;
+	font-size: 12px;
+}
+
+.hero-picture{
+	height: 350px;
+}
+.hero-picture-container{
+	border: 1px solid white;
+}
+.hero-names, .hero-fn, .hero-species, .hero-nationality, .hero-dob, .hero-title, .hero-sn, .hero-clearance, .hero-status, .sections{
+	background-color: rgb(30, 30, 30);
+	padding: 10px;
+	border: 1px solid white;
+	text-align: center;
+}
+
+.best-scenes{
+	margin: 20px;
+	padding: 15px;
+	background-color: rgb(30, 30, 30);
+	color: white;
+	font-size: 22px;
+	font-weight: 700;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 10px black;
+}
+.video-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 15px;
+	padding: 5px;
+	margin: 15px;
+	background-color: rgb(30, 30, 30);
+}
+.video-grid video{
+	width: 100%;
+	height: auto;
+	box-shadow: 1px 2px 3px black;
+}
+.video-grid video:hover{
+	transform: scale(1.02);
+}
+.video-grid a{
+	color: white;
+}
+.video-grid a:visited{
+	color: white;
+}
+.video-info{
+	font-size: 14px;
+	padding: 5px;
+	font-weight: 400;
+}
+
+.hero-text-container{
+	display: flex;
+	flex-direction: column;
+	margin: 20px 20px 0 20px;
+	
+}
+.hero-text{
+	font-size: 15px;
+	font-weight: 400;
+	color: white;
+	display: block;
+}
+.sections{
+	width: 200px;
+}
+.sections p{
+	padding: 8px;
+}
+.plug-box{
+	display: grid;
+	grid-template-columns: 70px 160px;
+	width: 200px;
+	padding-left: 30px;
+	color: white;
+	font-size: 14px;
+	margin: 30px 0 0 0;
+}
+.site-logo{
+	width: 60px;
+}
+.plug-box a{
+	transition: color 0.15s;
+}
+.plug-box a:visited{
+	color:white;
+}
+.plug-box a:hover{
+	color: #7244ab;
+}
